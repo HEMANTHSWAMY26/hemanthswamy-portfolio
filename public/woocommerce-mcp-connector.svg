@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="mcpBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#mcpBg)"/>
+
+  <!-- Header -->
+  <rect x="30" y="25" width="1140" height="60" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <circle cx="65" cy="55" r="7" fill="#ef4444"/>
+  <circle cx="90" cy="55" r="7" fill="#f59e0b"/>
+  <circle cx="115" cy="55" r="7" fill="#10b981"/>
+  <text x="145" y="60" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto" font-size="16" font-weight="600">Model Context Protocol (MCP) — WooCommerce Secure Connector Architecture</text>
+  <rect x="990" y="40" width="150" height="30" rx="6" fill="#10b981" opacity="0.2"/>
+  <text x="1012" y="60" fill="#10b981" font-family="sans-serif" font-size="13" font-weight="600">64 Tests Passed</text>
+
+  <!-- Column 1: AI Clients -->
+  <g transform="translate(60, 130)">
+    <rect x="0" y="0" width="280" height="550" rx="12" fill="url(#nodeGrad)" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="25" y="40" fill="#60a5fa" font-family="sans-serif" font-size="18" font-weight="700">AI Agents &amp; Clients</text>
+    <text x="25" y="65" fill="#94a3b8" font-family="sans-serif" font-size="12">Autonomous LLM Consumers</text>
+    
+    <rect x="20" y="95" width="240" height="85" rx="8" fill="#0f172a" stroke="#334155"/>
+    <text x="35" y="130" fill="#f8fafc" font-family="sans-serif" font-size="15" font-weight="600">Claude Desktop</text>
+    <text x="35" y="155" fill="#64748b" font-family="sans-serif" font-size="12">Natural Language Store Queries</text>
+
+    <rect x="20" y="200" width="240" height="85" rx="8" fill="#0f172a" stroke="#334155"/>
+    <text x="35" y="235" fill="#f8fafc" font-family="sans-serif" font-size="15" font-weight="600">Cursor / IDE Agent</text>
+    <text x="35" y="260" fill="#64748b" font-family="sans-serif" font-size="12">Code &amp; Workflow Tooling</text>
+
+    <rect x="20" y="305" width="240" height="85" rx="8" fill="#0f172a" stroke="#334155"/>
+    <text x="35" y="340" fill="#f8fafc" font-family="sans-serif" font-size="15" font-weight="600">Agent Studio</text>
+    <text x="35" y="365" fill="#64748b" font-family="sans-serif" font-size="12">Automated Support Orchestrator</text>
+
+    <rect x="20" y="420" width="240" height="90" rx="8" fill="#1e1b4b" stroke="#6366f1"/>
+    <text x="35" y="450" fill="#a5b4fc" font-family="sans-serif" font-size="13" font-weight="600">Standardized Transports</text>
+    <text x="35" y="475" fill="#cbd5e1" font-family="sans-serif" font-size="12">• Streamable HTTP (/mcp)</text>
+    <text x="35" y="495" fill="#cbd5e1" font-family="sans-serif" font-size="12">• Standard I/O (stdio)</text>
+  </g>
+
+  <!-- Connectors Arrow 1 -->
+  <path d="M 345 380 L 445 380" stroke="#38bdf8" stroke-width="3" stroke-dasharray="6 4"/>
+  <polygon points="445,375 455,380 445,385" fill="#38bdf8"/>
+
+  <!-- Column 2: Connector Security Boundaries -->
+  <g transform="translate(460, 130)">
+    <rect x="0" y="0" width="370" height="550" rx="12" fill="url(#nodeGrad)" stroke="#10b981" stroke-width="1.5"/>
+    <text x="25" y="40" fill="#34d399" font-family="sans-serif" font-size="18" font-weight="700">WooCommerce MCP Server</text>
+    <text x="25" y="65" fill="#94a3b8" font-family="sans-serif" font-size="12">Python MCP SDK v2 • Zero-Mutation</text>
+
+    <rect x="20" y="95" width="330" height="150" rx="8" fill="#064e3b" opacity="0.3" stroke="#059669"/>
+    <text x="35" y="125" fill="#6ee7b7" font-family="sans-serif" font-size="14" font-weight="600">🛡️ Read-Only Security Boundary</text>
+    <text x="35" y="150" fill="#cbd5e1" font-family="sans-serif" font-size="12">• get_orders, get_order, search_orders</text>
+    <text x="35" y="175" fill="#cbd5e1" font-family="sans-serif" font-size="12">• get_products, get_product, search_products</text>
+    <text x="35" y="200" fill="#f87171" font-family="sans-serif" font-size="12">• No mutation tools: POST / PUT / DELETE blocked</text>
+    <text x="35" y="225" fill="#38bdf8" font-family="sans-serif" font-size="12">• Strict Pydantic parameter schema validation</text>
+
+    <rect x="20" y="265" width="330" height="120" rx="8" fill="#0f172a" stroke="#334155"/>
+    <text x="35" y="295" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="600">🔒 PII Minimization &amp; Sanitization</text>
+    <text x="35" y="325" fill="#cbd5e1" font-family="sans-serif" font-size="12">• Physical addresses scrubbed before LLM</text>
+    <text x="35" y="345" fill="#cbd5e1" font-family="sans-serif" font-size="12">• Billing details, phone, and emails sanitized</text>
+    <text x="35" y="365" fill="#cbd5e1" font-family="sans-serif" font-size="12">• Protects against prompt injection exfiltration</text>
+
+    <rect x="20" y="405" width="330" height="110" rx="8" fill="#0f172a" stroke="#334155"/>
+    <text x="35" y="435" fill="#a78bfa" font-family="sans-serif" font-size="14" font-weight="600">⚡ Resilient Request Engine</text>
+    <text x="35" y="465" fill="#cbd5e1" font-family="sans-serif" font-size="12">• Exponential backoff with jitter on HTTP 429</text>
+    <text x="35" y="488" fill="#cbd5e1" font-family="sans-serif" font-size="12">• Thread-safe timeout &amp; connection pooling</text>
+  </g>
+
+  <!-- Connectors Arrow 2 -->
+  <path d="M 835 380 L 915 380" stroke="#38bdf8" stroke-width="3" stroke-dasharray="6 4"/>
+  <polygon points="915,375 925,380 915,385" fill="#38bdf8"/>
+
+  <!-- Column 3: Store & API -->
+  <g transform="translate(930, 130)">
+    <rect x="0" y="0" width="220" height="550" rx="12" fill="url(#nodeGrad)" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="20" y="40" fill="#fbbf24" font-family="sans-serif" font-size="18" font-weight="700">WooCommerce</text>
+    <text x="20" y="65" fill="#94a3b8" font-family="sans-serif" font-size="12">Store REST API</text>
+
+    <rect x="15" y="105" width="190" height="120" rx="8" fill="#0f172a" stroke="#334155"/>
+    <text x="25" y="140" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="600">Store Orders</text>
+    <text x="25" y="165" fill="#64748b" font-family="sans-serif" font-size="12">/wp-json/wc/v3/orders</text>
+    <text x="25" y="195" fill="#10b981" font-family="sans-serif" font-size="12">✓ Controlled Read</text>
+
+    <rect x="15" y="245" width="190" height="120" rx="8" fill="#0f172a" stroke="#334155"/>
+    <text x="25" y="280" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="600">Store Products</text>
+    <text x="25" y="305" fill="#64748b" font-family="sans-serif" font-size="12">/wp-json/wc/v3/products</text>
+    <text x="25" y="335" fill="#10b981" font-family="sans-serif" font-size="12">✓ Controlled Read</text>
+
+    <rect x="15" y="390" width="190" height="120" rx="8" fill="#450a0a" opacity="0.4" stroke="#dc2626"/>
+    <text x="25" y="425" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="600">Database / Writes</text>
+    <text x="25" y="455" fill="#fca5a5" font-family="sans-serif" font-size="12">Direct DB &amp; Mutations</text>
+    <text x="25" y="485" fill="#ef4444" font-family="sans-serif" font-size="12">❌ Blocked by Design</text>
+  </g>
+</svg>

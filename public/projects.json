@@ -1,0 +1,120 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "KisanVue AI",
+      "description": "AI-powered agricultural intelligence platform helping farmers analyze crop-health issues, receive actionable treatment guidance, and track recovery.",
+      "image": "/kisanvue.png",
+      "github": "https://github.com/HEMANTHSWAMY26/KISANVUE-AI",
+      "demo": "https://kisanvue-ai.vercel.app/",
+      "tech": [
+        "Google Gemini",
+        "Python",
+        "FastAPI",
+        "React",
+        "Weather API"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "FlowPilot AI",
+      "description": "Operational workflow analyst combining deterministic business rules, multi-format document ingestion, explainable audit trails, and human-in-the-loop review.",
+      "image": "/flowpilot.png",
+      "github": "https://github.com/HEMANTHSWAMY26/flowpilot-ai-workflow-analyst",
+      "demo": "https://flowpilot-ai-workflow-analyst.onrender.com/",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "Pydantic",
+        "Pytest",
+        "HTML5"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "AI Lead Generation & Workflow Automation",
+      "description": "Automated end-to-end lead research pipeline that ingests data from web task scrapers, cleans and deduplicates records, and syncs directly to Google Sheets.",
+      "image": "/lead-generation-automation.svg",
+      "github": "https://github.com/HEMANTHSWAMY26/rho-ap-leads",
+      "demo": null,
+      "tech": [
+        "Python",
+        "Streamlit",
+        "Apify API",
+        "Google Sheets API",
+        "Pandas"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "WooCommerce MCP Connector",
+      "description": "Secure, read-only Model Context Protocol (MCP) server allowing autonomous AI agents to query store orders and catalogs with PII sanitization and backoff retry.",
+      "image": "/woocommerce-mcp-connector.svg",
+      "github": "https://github.com/HEMANTHSWAMY26/razorpay-fde-woocommerce-connector",
+      "demo": null,
+      "tech": [
+        "Python",
+        "MCP SDK",
+        "REST API",
+        "Pydantic",
+        "Pytest"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "StudySprint",
+      "description": "Collaborative, real-time Pomodoro study session platform featuring synchronized timers, public focus lobbies, real-time chat, and productivity tracking.",
+      "image": "/studysprint.png",
+      "github": "https://github.com/HEMANTHSWAMY26/StudySprint",
+      "demo": "https://study-sprint-nine.vercel.app/",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "Supabase",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "VerifyX",
+      "description": "Phone-first, offline-first physical safety compliance prototype pairing real-time local computer vision with a spatial rule engine.",
+      "image": "/verifyx.png",
+      "github": "https://github.com/HEMANTHSWAMY26/VERIFYX",
+      "demo": "https://verifyx-gray.vercel.app/",
+      "tech": [
+        "JavaScript",
+        "Computer Vision",
+        "Vite",
+        "PWA"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "AI PDF Question Answering",
+      "description": "Interactive document analysis tool enabling users to upload PDFs and ask questions through natural language using high-throughput Groq LLM inference.",
+      "image": "/ai-pdf-qa.svg",
+      "github": "https://github.com/HEMANTHSWAMY26/ai-pdf-question-answering",
+      "demo": null,
+      "tech": [
+        "Python",
+        "Streamlit",
+        "Groq API",
+        "PyPDF"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Heart Disease Prediction",
+      "description": "Supervised machine learning classification system analyzing clinical cardiovascular indicators to predict heart disease risk using KNeighborsClassifier.",
+      "image": "/heart-disease-prediction.svg",
+      "github": "https://github.com/HEMANTHSWAMY26/heart-disease-prediction",
+      "demo": null,
+      "tech": [
+        "Python",
+        "Scikit-learn",
+        "Pandas",
+        "Jupyter"
+      ]
+    }
+  ]
+}

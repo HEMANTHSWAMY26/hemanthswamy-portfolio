@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </radialGradient>
+    
+    <radialGradient id="headGrad" cx="45%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#ff2e43"/>
+      <stop offset="60%" stop-color="#d61426"/>
+      <stop offset="100%" stop-color="#7a0610"/>
+    </radialGradient>
+
+    <radialGradient id="bodyGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#e52535"/>
+      <stop offset="100%" stop-color="#880813"/>
+    </radialGradient>
+
+    <linearGradient id="suitBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="50%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#091122"/>
+    </linearGradient>
+
+    <linearGradient id="lensGradL" x1="20%" y1="10%" x2="80%" y2="90%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+
+    <linearGradient id="lensGradR" x1="80%" y1="10%" x2="20%" y2="90%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle circular tech/comic rim -->
+  <circle cx="400" cy="380" r="330" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.25" stroke-dasharray="10 15"/>
+  <circle cx="400" cy="380" r="360" fill="none" stroke="#ef4444" stroke-width="1.5" opacity="0.2"/>
+
+  <!-- Shoulders / Torso -->
+  <g id="torso">
+    <!-- Blue shoulder panels -->
+    <path d="M 120 800 C 130 680, 210 600, 310 580 L 290 800 Z" fill="url(#suitBlue)" stroke="#0b1329" stroke-width="3"/>
+    <path d="M 680 800 C 670 680, 590 600, 490 580 L 510 800 Z" fill="url(#suitBlue)" stroke="#0b1329" stroke-width="3"/>
+    
+    <!-- Red chest panel -->
+    <path d="M 290 800 L 310 580 C 350 565, 450 565, 490 580 L 510 800 Z" fill="url(#bodyGrad)" stroke="#0b1329" stroke-width="3"/>
+
+    <!-- Chest Spider Emblem -->
+    <path d="M 400 660 L 415 690 L 400 735 L 385 690 Z" fill="#090d16"/>
+    <path d="M 400 655 L 410 645 L 400 635 L 390 645 Z" fill="#090d16"/>
+    <!-- Spider legs -->
+    <path d="M 402 658 Q 445 640 455 615 M 402 665 Q 460 665 470 655 M 398 658 Q 355 640 345 615 M 398 665 Q 340 665 330 655" fill="none" stroke="#090d16" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 402 690 Q 455 710 460 745 M 402 700 Q 445 735 448 765 M 398 690 Q 345 710 340 745 M 398 700 Q 355 735 352 765" fill="none" stroke="#090d16" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Chest Web lines -->
+    <path d="M 350 575 L 350 800 M 450 575 L 450 800 M 400 568 L 400 800" stroke="#1a1a1a" stroke-width="2" opacity="0.6"/>
+    <path d="M 320 620 Q 400 640 480 620 M 310 700 Q 400 725 490 700" fill="none" stroke="#1a1a1a" stroke-width="2" opacity="0.6"/>
+  </g>
+
+  <!-- Neck -->
+  <path d="M 335 480 L 335 585 Q 400 600 465 585 L 465 480 Z" fill="url(#headGrad)" stroke="#090d16" stroke-width="3"/>
+  <!-- Neck webbing -->
+  <path d="M 355 490 L 355 580 M 400 490 L 400 590 M 445 490 L 445 580" stroke="#1a1a1a" stroke-width="2" opacity="0.7"/>
+  <path d="M 335 525 Q 400 545 465 525 M 335 560 Q 400 578 465 560" fill="none" stroke="#1a1a1a" stroke-width="2" opacity="0.7"/>
+
+  <!-- Mask / Head -->
+  <g id="head">
+    <!-- Head Base Oval / Jaw Shape -->
+    <path d="M 400 130 
+             C 525 130, 565 240, 565 345 
+             C 565 445, 485 530, 400 540 
+             C 315 530, 235 445, 235 345 
+             C 235 240, 275 130, 400 130 Z" 
+          fill="url(#headGrad)" 
+          stroke="#090d16" 
+          stroke-width="4"/>
+
+    <!-- Radial Webbing Lines from Center of Face (Bridge of Nose: 400, 360) -->
+    <path d="M 400 360 L 400 130" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 400 360 L 445 138" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 400 360 L 355 138" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 400 360 L 495 165" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 400 360 L 305 165" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 400 360 L 535 215" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 400 360 L 265 215" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 400 360 L 560 280" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 400 360 L 240 280" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 400 360 L 565 350" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 400 360 L 235 350" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 400 360 L 550 425" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 400 360 L 250 425" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 400 360 L 515 480" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 400 360 L 285 480" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 400 360 L 460 520" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 400 360 L 340 520" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 400 360 L 400 540" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+
+    <!-- Concentric Web Rings -->
+    <path d="M 358 190 Q 400 215 442 190" fill="none" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 320 240 Q 400 280 480 240" fill="none" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 285 295 Q 400 345 515 295" fill="none" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 345 425 Q 400 405 455 425" fill="none" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 315 470 Q 400 440 485 470" fill="none" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+    <path d="M 345 508 Q 400 485 455 508" fill="none" stroke="#18181b" stroke-width="2.5" opacity="0.85"/>
+
+    <!-- Outer Rim Highlight -->
+    <path d="M 242 320 C 242 220, 310 138, 400 135" fill="none" stroke="#ff7b89" stroke-width="5" opacity="0.45"/>
+    <path d="M 558 320 C 558 430, 480 525, 400 535" fill="none" stroke="#38bdf8" stroke-width="4" opacity="0.45"/>
+
+    <!-- LEFT EYE -->
+    <path d="M 382 355 C 370 290, 315 260, 260 270 C 255 315, 275 390, 335 418 C 365 400, 380 375, 382 355 Z" 
+          fill="#090d16" stroke="#000000" stroke-width="4"/>
+    <path d="M 372 354 C 362 300, 320 275, 274 282 C 270 318, 287 378, 334 402 C 358 388, 370 370, 372 354 Z" 
+          fill="url(#lensGradL)"/>
+    <path d="M 368 355 C 360 312, 330 290, 290 292 C 300 320, 325 365, 355 385 Z" fill="#ffffff" opacity="0.75"/>
+
+    <!-- RIGHT EYE -->
+    <path d="M 418 355 C 430 290, 485 260, 540 270 C 545 315, 525 390, 465 418 C 435 400, 420 375, 418 355 Z" 
+          fill="#090d16" stroke="#000000" stroke-width="4"/>
+    <path d="M 428 354 C 438 300, 480 275, 526 282 C 530 318, 513 378, 466 402 C 442 388, 430 370, 428 354 Z" 
+          fill="url(#lensGradR)"/>
+    <path d="M 432 355 C 440 312, 470 290, 510 292 C 500 320, 475 365, 445 385 Z" fill="#ffffff" opacity="0.75"/>
+  </g>
+</svg>
