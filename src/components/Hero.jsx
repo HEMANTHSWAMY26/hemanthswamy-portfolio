@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useMagnetic } from '../hooks/useMagnetic';
 import './Hero.css';
 import mainimg from '../assets/hemanth_profile.png';
+import blinkVideo from '../assets/hemanth_eye_blinkk.mp4';
 import { GITHUB_URL, LINKEDIN_URL } from '../constants';
 
 const Hero = () => {
@@ -60,16 +61,29 @@ const Hero = () => {
 
             <div className="container">
                 <div className="hero-content">
-                    {/* Profile Image */}
+                    {/* Profile Image / Animated Video */}
                     <div className="hero-image-container fade-in">
                         <div className="hero-image-wrapper">
-                            <img
-                                src={mainimg}
-                                alt="Hemanth Swamy — AI Product Builder and CSE AIML graduate"
+                            <video
+                                src={blinkVideo}
+                                poster={mainimg}
+                                autoPlay
+                                loop
+                                muted
+                                playsInline
                                 className="hero-image"
                                 width="300"
                                 height="300"
-                            />
+                                aria-label="Hemanth Swamy — AI Product Builder and CSE AIML graduate"
+                            >
+                                <img
+                                    src={mainimg}
+                                    alt="Hemanth Swamy — AI Product Builder and CSE AIML graduate"
+                                    className="hero-image"
+                                    width="300"
+                                    height="300"
+                                />
+                            </video>
                             <div className="image-glow"></div>
                         </div>
 
