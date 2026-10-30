@@ -61,21 +61,10 @@ const Hero = () => {
 
             <div className="container">
                 <div className="hero-content">
-                    {/* Profile Image / Animated Video */}
+                    {/* Profile Image / Animated Portrait */}
                     <div className="hero-image-container fade-in">
                         <div className="hero-image-wrapper">
-                            <video
-                                src={blinkVideo}
-                                poster={mainimg}
-                                autoPlay
-                                loop
-                                muted
-                                playsInline
-                                className="hero-image"
-                                width="300"
-                                height="300"
-                                aria-label="Hemanth Swamy — AI Product Builder and CSE AIML graduate"
-                            >
+                            <div className="hero-image-circle">
                                 <img
                                     src={mainimg}
                                     alt="Hemanth Swamy — AI Product Builder and CSE AIML graduate"
@@ -83,7 +72,16 @@ const Hero = () => {
                                     width="300"
                                     height="300"
                                 />
-                            </video>
+                                <video
+                                    src={blinkVideo}
+                                    autoPlay
+                                    loop
+                                    muted
+                                    playsInline
+                                    className="hero-video-overlay"
+                                    aria-hidden="true"
+                                />
+                            </div>
                             <div className="image-glow"></div>
                         </div>
 
