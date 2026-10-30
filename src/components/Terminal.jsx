@@ -17,7 +17,7 @@ const Terminal = () => {
     const commands = {
         help: "Available: about, experience, certifications, skills, projects, contact, clear, cd [section], kill, whoami",
         about: "Hemanth Swamy: 2025 CSE AIML graduate building practical AI-powered products, intelligent automations, and useful digital experiences.",
-        experience: "Journey: Infosys Springboard (AI/RAG Intern, Feb-Mar 2025) → OneCompiler (Community Builder) → Independent AI Automation & Solutions (2025-Present).",
+        experience: "Journey: Infosys Springboard (AI/RAG Intern, Feb-Mar 2025) → OneCompiler (Community Builder, Aug-Sep 2025) → Independent AI Automation & Solutions (Sep 2025-Present).",
         certifications: "Credentials: Microsoft (Generative AI & ML), IBM (Python 101 for Data Science), Infosys Springboard (RAG & AI Agents), McKinsey (Forward Program), Udemy (Python).",
         skills: "Python, FastAPI, React, JavaScript, Generative AI, LLM Apps, Scikit-learn, Workflow Automation, Supabase.",
         projects: "Featured: KisanVue AI, FlowPilot AI, Lead Gen Automation, WooCommerce MCP Connector, StudySprint.",
