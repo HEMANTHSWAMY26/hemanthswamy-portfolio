@@ -15,8 +15,9 @@ const Terminal = () => {
     const offset = useRef({ x: 0, y: 0 });
 
     const commands = {
-        help: "Available: about, skills, projects, contact, clear, cd [section], kill, whoami",
+        help: "Available: about, experience, skills, projects, contact, clear, cd [section], kill, whoami",
         about: "Hemanth Swamy: 2025 CSE AIML graduate building practical AI-powered products, intelligent automations, and useful digital experiences.",
+        experience: "Journey: Infosys Springboard (AI/RAG Intern, Feb-Mar 2025) → OneCompiler (Community Builder) → Independent AI Automation & Solutions (2025-Present).",
         skills: "Python, FastAPI, React, JavaScript, Generative AI, LLM Apps, Scikit-learn, Workflow Automation, Supabase.",
         projects: "Featured: KisanVue AI, FlowPilot AI, Lead Gen Automation, WooCommerce MCP Connector, StudySprint.",
         whoami: "Amidepuram Hemanth Swamy — AI Product Builder & Automation Specialist.",
@@ -78,7 +79,7 @@ const Terminal = () => {
                 if (scrollToSection(arg)) {
                     response = `Navigating to ${arg}...`;
                 } else {
-                    response = `Section not found: ${arg}. Try: home, projects, skills, about, contact`;
+                    response = `Section not found: ${arg}. Try: home, experience, projects, skills, about, contact`;
                 }
                 setHistory(prev => [...prev, `> ${input}`, response]);
             } else {
