@@ -567,7 +567,7 @@
 .visual-card-v2 {
     grid-area: visual;
     padding: 0 !important;
-    min-height: 250px;
+    min-height: 480px;
 }
 
 .philosophy-card-v2 {
@@ -676,31 +676,24 @@
 }
 
 /* Visual Card */
-.visual-bg {
-    position: absolute;
-    inset: 0;
-    background-size: cover;
-    background-position: center;
-    filter: brightness(0.6) saturate(1.2);
-    transition: transform 1.2s ease;
-}
-
-.visual-card-v2:hover .visual-bg {
-    transform: scale(1.1);
-}
-
-.visual-overlay {
-    position: relative;
+.visual-card-v2 .image-wrapper {
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
 }
 
-.visual-overlay i {
-    font-size: 3rem;
-    color: white;
-    opacity: 0.3;
+.visual-card-v2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center 60%;
+    filter: brightness(0.95) contrast(1.05);
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.visual-card-v2:hover img {
+    transform: scale(1.03);
 }
 
 /* Philosophy V2 */
@@ -824,6 +817,10 @@
 
     .profile-card-v2 {
         min-height: 400px;
+    }
+
+    .visual-card-v2 {
+        min-height: 420px;
     }
 
     .bio-card-v2 h3 {

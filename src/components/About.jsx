@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
 import './About.css';
 import main from '../assets/hemanth_laptop.png';
+import writingImg from '../assets/hemanth_writing.png';
 import { GITHUB_URL } from '../constants';
 
 // --- Animated Counter Hook/Component ---
@@ -377,11 +378,20 @@ const About = () => {
                         </div>
                     </div>
 
-                    {/* Visual Inspiration Card - Filled space */}
+                    {/* Visual Inspiration Card - Learning & Prototyping */}
                     <div className="bento-card-v2 visual-card-v2 reveal">
-                        <div className="visual-bg" style={{ backgroundImage: 'url("/hemanth_writing.png")', backgroundSize: 'cover', backgroundPosition: 'center top' }}></div>
-                        <div className="visual-overlay">
-                            <i className='bx bx-brain'></i>
+                        <div className="image-wrapper">
+                            <img
+                                src={writingImg}
+                                alt="Hemanth Swamy planning architectures and writing notes"
+                                width="400"
+                                height="500"
+                                loading="lazy"
+                            />
+                            <div className="profile-overlay">
+                                <h4>Ideation &amp; Architecture</h4>
+                                <span className="status-badge">Planning &amp; Prototyping</span>
+                            </div>
                         </div>
                     </div>
 
