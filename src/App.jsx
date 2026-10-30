@@ -33,8 +33,8 @@ function App() {
                     {/* About Me — inline intro section, not in nav */}
                     <AboutMe />
                     <Experience />
-                    <Certifications />
                     <Projects /> 
+                    <Certifications /> 
                     <ToolsSection />
                     <Skills />
                     <About />

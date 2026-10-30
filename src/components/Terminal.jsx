@@ -80,7 +80,7 @@ const Terminal = () => {
                 if (scrollToSection(arg)) {
                     response = `Navigating to ${arg}...`;
                 } else {
-                    response = `Section not found: ${arg}. Try: home, experience, certifications, projects, skills, about, contact`;
+                    response = `Section not found: ${arg}. Try: home, experience, projects, certifications, skills, about, contact`;
                 }
                 setHistory(prev => [...prev, `> ${input}`, response]);
             } else {
