@@ -18,7 +18,7 @@ const Header = () => {
             setScrollProgress(progress);
 
             // Update active section based on scroll position
-            const sections = ['home', 'experience', 'projects', 'skills', 'about', 'contact'];
+            const sections = ['home', 'experience', 'certifications', 'projects', 'skills', 'about', 'contact'];
             const current = sections.find(section => {
                 const element = document.getElementById(section);
                 if (element) {
@@ -62,7 +62,7 @@ const Header = () => {
 
                     {/* Desktop Navigation */}
                     <nav className="nav-desktop">
-                        {['home', 'experience', 'projects', 'skills', 'about', 'contact'].map((section) => (
+                        {['home', 'experience', 'certifications', 'projects', 'skills', 'about', 'contact'].map((section) => (
                             <button
                                 key={section}
                                 onClick={() => scrollToSection(section)}
@@ -92,7 +92,7 @@ const Header = () => {
 
                 {/* Mobile Navigation */}
                 <nav className={`nav-mobile ${isMobileMenuOpen ? 'open' : ''}`}>
-                    {['home', 'experience', 'projects', 'skills', 'about', 'contact'].map((section) => (
+                    {['home', 'experience', 'certifications', 'projects', 'skills', 'about', 'contact'].map((section) => (
                         <button
                             key={section}
                             onClick={() => scrollToSection(section)}

@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import AboutMe from './components/AboutMe';
 import Experience from './components/Experience';
+import Certifications from './components/Certifications';
 import Projects from './components/Projects';
 import ToolsSection from './components/ToolsSection';
 import Skills from './components/Skills';
@@ -32,6 +33,7 @@ function App() {
                     {/* About Me — inline intro section, not in nav */}
                     <AboutMe />
                     <Experience />
+                    <Certifications />
                     <Projects /> 
                     <ToolsSection />
                     <Skills />
