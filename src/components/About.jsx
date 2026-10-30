@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
 import './About.css';
-import main from '../assets/main.png';
+import main from '../assets/hemanth_laptop.png';
 import { GITHUB_URL } from '../constants';
 
 // --- Animated Counter Hook/Component ---
@@ -333,7 +333,7 @@ const About = () => {
                     {/* Profile Card - Tall & Visual */}
                     <div className="bento-card-v2 profile-card-v2 reveal">
                         <div className="image-wrapper">
-                            <img src={main} alt="Spider-Man-inspired superhero avatar used as a portfolio profile illustration." width="400" height="400" />
+                            <img src={main} alt="Hemanth Swamy working on a laptop — AI product development" width="400" height="400" loading="lazy" />
                             <div className="profile-overlay">
                                 <h4>Hemanth Swamy</h4>
                                 <span className="status-badge">AI Product Builder</span>
@@ -379,7 +379,7 @@ const About = () => {
 
                     {/* Visual Inspiration Card - Filled space */}
                     <div className="bento-card-v2 visual-card-v2 reveal">
-                        <div className="visual-bg" style={{ backgroundImage: 'url("/skills-visual.svg")', backgroundSize: 'cover' }}></div>
+                        <div className="visual-bg" style={{ backgroundImage: 'url("/hemanth_writing.png")', backgroundSize: 'cover', backgroundPosition: 'center top' }}></div>
                         <div className="visual-overlay">
                             <i className='bx bx-brain'></i>
                         </div>

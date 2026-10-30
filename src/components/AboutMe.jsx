@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import profileImg from '../assets/img.jpg';
+import profileImg from '../assets/hemanth_profile.png';
 import { GITHUB_URL } from '../constants';
 import './AboutMe.css';
 
@@ -99,7 +99,7 @@ const AboutMe = () => {
                     {/* Right — photo */}
                     <div className="am-right">
                         <div className="am-photo-frame">
-                            <img src={profileImg} alt="Spider-Man-inspired superhero avatar used as a portfolio profile illustration." className="am-photo" width="300" height="300" />
+                            <img src={profileImg} alt="Hemanth Swamy — portrait photograph" className="am-photo" width="300" height="300" loading="lazy" />
                             <div className="am-photo-badge">
                                 <i className="bx bx-code-alt" />
                                 <span>AI Product Builder</span>

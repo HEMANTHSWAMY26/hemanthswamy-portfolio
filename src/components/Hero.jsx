@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useMagnetic } from '../hooks/useMagnetic';
 import './Hero.css';
-import mainimg from '../assets/main-img.webp';
+import mainimg from '../assets/hemanth_profile.png';
 import { GITHUB_URL, LINKEDIN_URL } from '../constants';
 
 const Hero = () => {
@@ -65,7 +65,7 @@ const Hero = () => {
                         <div className="hero-image-wrapper">
                             <img
                                 src={mainimg}
-                                alt="Spider-Man-inspired superhero avatar used as a portfolio profile illustration."
+                                alt="Hemanth Swamy — AI Product Builder and CSE AIML graduate"
                                 className="hero-image"
                                 width="300"
                                 height="300"

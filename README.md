@@ -3,7 +3,7 @@
 > Personal portfolio website of **Amidepuram Hemanth Swamy**, a 2025 CSE AIML graduate specializing in practical AI products, intelligent automations, and generative AI applications.
 
 <div align="center">
-  <img src="src/assets/spiderman-avatar.png" alt="Spider-Man-inspired superhero avatar" width="140" height="140" style="border-radius:50%;" />
+  <img src="src/assets/hemanth_profile.png" alt="Hemanth Swamy — Portrait" width="140" height="140" style="border-radius:50%; object-fit: cover; object-position: top center;" />
   <p align="center">
     <strong>Turning ideas into intelligent products.</strong>
   </p>
