@@ -23,6 +23,7 @@ export const certificationsData = [
         credentialId: 'Internship 5.0 (B4)',
         credentialUrl: 'https://verify.onwingspan.com',
         certificateFile: '/infosys_internship_certificate.pdf',
+        image: '/cert_preview_infosys.png',
         skills: ['Retrieval-Augmented Generation (RAG)', 'AI Agents', 'PandasAI Agent', 'Groq API', 'Llama Models', 'Python'],
         description: 'Rigorous project and evaluation credential validating hands-on implementation of RAG pipelines, autonomous agent architectures, and natural language tabular querying.'
     },
@@ -38,6 +39,7 @@ export const certificationsData = [
         credentialId: null,
         credentialUrl: null,
         certificateFile: '/mckinsey_forward_certificate.pdf',
+        image: '/cert_preview_mckinsey.png',
         skills: ['Structured Problem Solving', 'Digital Toolkit', 'Adaptability & Resilience', 'Influential Communication'],
         description: 'Selected participant in McKinsey & Company\'s flagship global Forward initiative, mastering the McKinsey problem-solving framework, agile collaboration, and future-of-work digital capabilities.'
     },
@@ -53,6 +55,7 @@ export const certificationsData = [
         credentialId: 'PY0101EN',
         credentialUrl: 'https://cognitiveclass.ai/courses/python-for-data-science',
         certificateFile: '/ibm_python_101_certificate.pdf',
+        image: '/cert_preview_ibm.png',
         skills: ['Python', 'Data Science', 'Pandas', 'NumPy', 'Data Structures', 'Data Analysis'],
         description: 'Foundational programming credential verifying proficiency in Python syntax, mathematical data operations, tabular data manipulation with Pandas, and data science workflows.'
     },
@@ -68,6 +71,7 @@ export const certificationsData = [
         credentialId: 'UC-4ea6dfbe-3a6d-45f6-8054-6bc765703a06',
         credentialUrl: 'https://ude.my/UC-4ea6dfbe-3a6d-45f6-8054-6bc765703a06',
         certificateFile: '/udemy_python_complete_beginners.pdf',
+        image: '/cert_preview_udemy_1.png',
         skills: ['Python Basics', 'Control Flow', 'Object-Oriented Programming', 'Algorithm Design'],
         description: 'Comprehensive 3.5-hour structured training course covering Python programming primitives, procedural logic, and modular code development.'
     },
@@ -83,6 +87,7 @@ export const certificationsData = [
         credentialId: 'UC-cc3db673-b909-49c1-bc2a-5bb95ac0feba',
         credentialUrl: 'https://ude.my/UC-cc3db673-b909-49c1-bc2a-5bb95ac0feba',
         certificateFile: '/udemy_python_for_beginners.pdf',
+        image: '/cert_preview_udemy_2.png',
         skills: ['Python Programming', 'Data Types', 'Functions', 'Problem Solving'],
         description: 'Hands-on practical course focusing on Python fundamentals, functional abstractions, and software development essentials.'
     },
@@ -98,6 +103,7 @@ export const certificationsData = [
         credentialId: null,
         credentialUrl: null,
         certificateFile: null,
+        image: '/cert_preview_ms_genai.svg',
         skills: ['Generative AI', 'Large Language Models (LLMs)', 'AI Ethics', 'Prompt Engineering', 'AI Productivity'],
         description: 'Comprehensive foundational credential covering generative artificial intelligence concepts, core LLM mechanics, ethical considerations, and real-world workplace applications.'
     },
@@ -113,6 +119,7 @@ export const certificationsData = [
         credentialId: null,
         credentialUrl: null,
         certificateFile: null,
+        image: '/cert_preview_ms_ml.svg',
         skills: ['Machine Learning', 'Generative AI', 'Neural Networks', 'Azure AI Concepts', 'Data Modeling'],
         description: 'Technical evaluation of machine learning fundamentals, deep learning architectures, generative model paradigms, and automated data pipelines.'
     }

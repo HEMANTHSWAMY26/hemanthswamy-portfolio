@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="mlBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1329"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="mlBadge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="mlAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="750" fill="url(#mlBg)"/>
+  
+  <!-- Subtle Grid -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="150" x2="1200" y2="150"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="450" x2="1200" y2="450"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+    <line x1="300" y1="0" x2="300" y2="750"/>
+    <line x1="600" y1="0" x2="600" y2="750"/>
+    <line x1="900" y1="0" x2="900" y2="750"/>
+  </g>
+
+  <!-- Card Frame -->
+  <rect x="60" y="50" width="1080" height="650" rx="20" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="2"/>
+
+  <!-- Microsoft Logo -->
+  <g transform="translate(120, 110)">
+    <rect x="0" y="0" width="22" height="22" fill="#f25022"/>
+    <rect x="26" y="0" width="22" height="22" fill="#7fba00"/>
+    <rect x="0" y="26" width="22" height="22" fill="#00a4ef"/>
+    <rect x="26" y="26" width="22" height="22" fill="#ffb900"/>
+    <text x="65" y="34" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="700" letter-spacing="-0.5">Microsoft</text>
+  </g>
+
+  <!-- Category Tag -->
+  <rect x="860" y="110" width="220" height="42" rx="21" fill="url(#mlBadge)"/>
+  <text x="970" y="136" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" letter-spacing="1">TECHNICAL PROGRAM</text>
+
+  <!-- Title & Subtitle -->
+  <text x="120" y="260" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="42" font-weight="800">Fundamentals of</text>
+  <text x="120" y="325" fill="url(#mlAccent)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="50" font-weight="800">Generative AI &amp; Machine Learning</text>
+
+  <text x="120" y="390" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="400">Core Machine Learning Models, Neural Networks &amp; Cloud AI Architectures</text>
+
+  <!-- Inner Pill Highlights -->
+  <g transform="translate(120, 460)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="220" height="50" rx="12" fill="#0f172a" stroke="#1d4ed8" stroke-width="1.5"/>
+    <text x="110" y="31" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600">📊 Data Modeling</text>
+
+    <!-- Pill 2 -->
+    <rect x="240" y="0" width="230" height="50" rx="12" fill="#0f172a" stroke="#1d4ed8" stroke-width="1.5"/>
+    <text x="355" y="31" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600">⚡ Neural Networks</text>
+
+    <!-- Pill 3 -->
+    <rect x="490" y="0" width="210" height="50" rx="12" fill="#0f172a" stroke="#1d4ed8" stroke-width="1.5"/>
+    <text x="595" y="31" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600">☁️ Azure AI Concepts</text>
+  </g>
+
+  <!-- Footer Verification Line -->
+  <line x1="120" y1="570" x2="1080" y2="570" stroke="#334155" stroke-width="1"/>
+  <text x="120" y="625" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="500">Credential Type: Microsoft Learning Track • Verified Curriculum • Completed 2024</text>
+</svg>
