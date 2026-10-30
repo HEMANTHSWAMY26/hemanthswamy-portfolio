@@ -12,36 +12,6 @@ export const CERTIFICATION_CATEGORIES = [
 
 export const certificationsData = [
     {
-        id: 'ms-career-essentials-genai',
-        title: 'Career Essentials in Generative AI',
-        issuer: 'Microsoft & LinkedIn',
-        category: 'ai-ml',
-        type: 'Professional Certification',
-        typeColor: '#6366f1',
-        icon: 'bx bx-brain',
-        issueDate: '2024',
-        credentialId: null,
-        credentialUrl: 'https://www.linkedin.com/learning/certificates/career-essentials-in-generative-ai-by-microsoft-and-linkedin',
-        certificateFile: null,
-        skills: ['Generative AI', 'Large Language Models (LLMs)', 'AI Ethics', 'Prompt Engineering', 'AI Productivity'],
-        description: 'Comprehensive foundational credential covering generative artificial intelligence concepts, core LLM mechanics, ethical considerations, and real-world workplace applications.'
-    },
-    {
-        id: 'ms-fundamentals-genai-ml',
-        title: 'Fundamentals of Generative AI & Machine Learning',
-        issuer: 'Microsoft',
-        category: 'ai-ml',
-        type: 'Professional Certification',
-        typeColor: '#3b82f6',
-        icon: 'bx bx-chip',
-        issueDate: '2024',
-        credentialId: null,
-        credentialUrl: 'https://learn.microsoft.com/training/',
-        certificateFile: null,
-        skills: ['Machine Learning', 'Generative AI', 'Neural Networks', 'Azure AI Concepts', 'Data Modeling'],
-        description: 'Technical evaluation of machine learning fundamentals, deep learning architectures, generative model paradigms, and automated data pipelines.'
-    },
-    {
         id: 'infosys-rag-ai-agents',
         title: 'Internship 5.0 (B4) RAG and AI Agents for Healthcare',
         issuer: 'Infosys Springboard',
@@ -55,6 +25,21 @@ export const certificationsData = [
         certificateFile: '/infosys_internship_certificate.pdf',
         skills: ['Retrieval-Augmented Generation (RAG)', 'AI Agents', 'PandasAI Agent', 'Groq API', 'Llama Models', 'Python'],
         description: 'Rigorous project and evaluation credential validating hands-on implementation of RAG pipelines, autonomous agent architectures, and natural language tabular querying.'
+    },
+    {
+        id: 'mckinsey-forward-program',
+        title: 'McKinsey.org Forward Online Learning Program',
+        issuer: 'McKinsey & Company',
+        category: 'professional-dev',
+        type: 'Professional Development',
+        typeColor: '#10b981',
+        icon: 'bx bx-line-chart',
+        issueDate: 'July 7, 2025',
+        credentialId: null,
+        credentialUrl: null,
+        certificateFile: '/mckinsey_forward_certificate.pdf',
+        skills: ['Structured Problem Solving', 'Digital Toolkit', 'Adaptability & Resilience', 'Influential Communication'],
+        description: 'Selected participant in McKinsey & Company\'s flagship global Forward initiative, mastering the McKinsey problem-solving framework, agile collaboration, and future-of-work digital capabilities.'
     },
     {
         id: 'ibm-python-101-data-science',
@@ -102,18 +87,34 @@ export const certificationsData = [
         description: 'Hands-on practical course focusing on Python fundamentals, functional abstractions, and software development essentials.'
     },
     {
-        id: 'mckinsey-forward-program',
-        title: 'McKinsey.org Forward Online Learning Program',
-        issuer: 'McKinsey & Company',
-        category: 'professional-dev',
-        type: 'Professional Development',
-        typeColor: '#10b981',
-        icon: 'bx bx-line-chart',
-        issueDate: 'July 7, 2025',
+        id: 'ms-career-essentials-genai',
+        title: 'Career Essentials in Generative AI',
+        issuer: 'Microsoft & LinkedIn',
+        category: 'ai-ml',
+        type: 'Professional Certification',
+        typeColor: '#6366f1',
+        icon: 'bx bx-brain',
+        issueDate: '2024',
         credentialId: null,
-        credentialUrl: 'https://www.mckinsey.com/forward',
-        certificateFile: '/mckinsey_forward_certificate.pdf',
-        skills: ['Structured Problem Solving', 'Digital Toolkit', 'Adaptability & Resilience', 'Influential Communication'],
-        description: 'Selected participant in McKinsey & Company\'s flagship global Forward initiative, mastering the McKinsey problem-solving framework, agile collaboration, and future-of-work digital capabilities.'
+        credentialUrl: null,
+        certificateFile: null,
+        skills: ['Generative AI', 'Large Language Models (LLMs)', 'AI Ethics', 'Prompt Engineering', 'AI Productivity'],
+        description: 'Comprehensive foundational credential covering generative artificial intelligence concepts, core LLM mechanics, ethical considerations, and real-world workplace applications.'
+    },
+    {
+        id: 'ms-fundamentals-genai-ml',
+        title: 'Fundamentals of Generative AI & Machine Learning',
+        issuer: 'Microsoft',
+        category: 'ai-ml',
+        type: 'Professional Certification',
+        typeColor: '#3b82f6',
+        icon: 'bx bx-chip',
+        issueDate: '2024',
+        credentialId: null,
+        credentialUrl: null,
+        certificateFile: null,
+        skills: ['Machine Learning', 'Generative AI', 'Neural Networks', 'Azure AI Concepts', 'Data Modeling'],
+        description: 'Technical evaluation of machine learning fundamentals, deep learning architectures, generative model paradigms, and automated data pipelines.'
     }
 ];
+

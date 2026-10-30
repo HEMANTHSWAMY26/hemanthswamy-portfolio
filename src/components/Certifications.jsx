@@ -157,6 +157,13 @@ const Certifications = () => {
                                             <span>Verify Credential</span>
                                         </a>
                                     )}
+
+                                    {!cert.certificateFile && !cert.credentialUrl && (
+                                        <div className="cert-verified-badge" title="Verified learning curriculum">
+                                            <i className="bx bx-check-circle"></i>
+                                            <span>Verified Coursework</span>
+                                        </div>
+                                    )}
                                 </div>
                             </div>
                         </div>
@@ -168,3 +175,4 @@ const Certifications = () => {
 };
 
 export default Certifications;
+

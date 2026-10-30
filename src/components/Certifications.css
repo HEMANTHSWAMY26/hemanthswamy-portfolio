@@ -357,6 +357,26 @@
     font-size: 0.95rem;
 }
 
+.cert-verified-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-tertiary);
+    padding: 0.45rem 0.9rem;
+    background: rgba(99, 102, 241, 0.05);
+    border: 1px dashed rgba(99, 102, 241, 0.22);
+    border-radius: var(--radius-full);
+    width: 100%;
+    justify-content: center;
+}
+
+.cert-verified-badge i {
+    color: var(--primary);
+    font-size: 0.95rem;
+}
+
 /* ===================================
    RESPONSIVE DESIGN
    =================================== */
@@ -410,3 +430,4 @@
         width: 100%;
     }
 }
+
